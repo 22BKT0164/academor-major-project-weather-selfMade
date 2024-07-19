@@ -45,7 +45,7 @@ async function fetchWeatherData(apiUrl) {
     displayWeather(data);
   } catch (error) {
     console.error('Error fetching weather data:', error);
-    alert('Failed to fetch weather data. Please enter a valid city name.');
+    // alert('Failed to fetch weather data. Please enter a valid city name.');
   }
 }
 
